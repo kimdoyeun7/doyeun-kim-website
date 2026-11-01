@@ -7,7 +7,8 @@
     "size": "195 × 380 cm",
     "image": "images/garden.jpg",
     "detail_images": [
-      "images/(디테일)어떤 정원.jpg"
+      "images/garden.jpg",
+      "images/file.jpg"
     ],
     "home_position": "cover",
     "order": 1
