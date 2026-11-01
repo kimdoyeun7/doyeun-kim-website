@@ -743,3 +743,8 @@ hr,
 .site-header::after {
   display: none !important;
 }
+/* INTRO — PC & Mobile */
+
+.intro-name {
+  line-height: 0.88;
+}
