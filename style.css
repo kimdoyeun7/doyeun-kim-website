@@ -685,3 +685,61 @@ body[data-page="work-detail"] .cms-gallery-figure img {
   }
 
 }
+
+/* =========================================
+   CLEAN WHITE WEBSITE
+   ========================================= */
+
+/* Pure white backgrounds */
+
+html,
+body,
+main,
+.site-header,
+.site-footer,
+.page-main,
+.page-content,
+.works-section,
+.exhibitions-section,
+.art-frame,
+.cms-gallery-list,
+.cms-gallery-figure,
+.exhibition-feature-frame,
+.exhibition-detail-frame {
+  background-color: #ffffff !important;
+}
+
+/* Remove horizontal divider elements */
+
+hr,
+.divider,
+.section-divider,
+.section-rule,
+.page-divider,
+.header-divider,
+.hairline {
+  display: none !important;
+}
+
+/* Remove section separator borders */
+
+.site-header,
+.site-footer,
+.page-header,
+.section-header,
+.section-heading,
+.section-head,
+.works-section,
+.exhibitions-section,
+.page-main > section {
+  border-top: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* Remove header underline */
+
+.site-header::before,
+.site-header::after {
+  display: none !important;
+}
