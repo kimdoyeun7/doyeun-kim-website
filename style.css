@@ -665,3 +665,23 @@ body[data-page="work-detail"] .cms-gallery-figure img {
     gap: 30px;
   }
 }
+/* MOBILE HOME — Show the entire main artwork */
+
+@media (max-width: 700px) {
+
+  body[data-page="home"] .home-cover-frame {
+    height: auto;
+    min-height: 0;
+    aspect-ratio: auto;
+    display: block;
+  }
+
+  body[data-page="home"] .home-cover-frame img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+  }
+
+}
