@@ -1,0 +1,120 @@
+# DOYEUN KIM — Pages CMS editor configuration
+# Edit via https://app.pagescms.org after uploading this project to GitHub.
+media:
+  input: images
+  output: images
+  rename: safe
+
+content:
+  - name: works
+    label: "Works / 작품 관리"
+    type: file
+    path: data/works.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: "고유 ID (영문 소문자/숫자/하이픈, 만든 후 변경 금지)"
+        type: string
+        required: true
+        pattern: "^[a-z0-9-]+$"
+      - name: title
+        label: "작품명"
+        type: string
+        required: true
+      - name: year
+        label: "제작 연도"
+        type: number
+        required: true
+      - name: material
+        label: "재료 (영문 캡션)"
+        type: string
+      - name: size
+        label: "크기 (세로 × 가로 cm)"
+        type: string
+      - name: image
+        label: "대표 작품 이미지"
+        type: image
+      - name: detail_images
+        label: "부분/디테일 사진 (여러 장)"
+        type: image
+        options:
+          multiple:
+            max: 40
+      - name: process_images
+        label: "제작 과정 사진 (여러 장)"
+        type: image
+        options:
+          multiple:
+            max: 40
+      - name: description
+        label: "작품 설명 (없으면 공란)"
+        type: text
+      - name: home_position
+        label: "홈페이지 노출"
+        type: select
+        options:
+          values:
+            - name: cover
+              label: "첫 화면의 대표작 (1개만 선택)"
+            - name: selected
+              label: "첫 화면 아래의 선택 작품 (최대 2점)"
+            - name: archive
+              label: "Works 목록에만"
+      - name: order
+        label: "정렬 순서 (작을수록 앞에 표시)"
+        type: number
+
+  - name: exhibitions
+    label: "Exhibitions / 전시 관리"
+    type: file
+    path: data/exhibitions.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: "고유 ID (영문 소문자/숫자/하이픈, 만든 후 변경 금지)"
+        type: string
+        required: true
+        pattern: "^[a-z0-9-]+$"
+      - name: title
+        label: "전시명"
+        type: string
+        required: true
+      - name: year
+        label: "연도"
+        type: number
+        required: true
+      - name: kind
+        label: "개인전/단체전"
+        type: select
+        options:
+          values:
+            - name: Solo exhibition
+              label: "개인전"
+            - name: Group exhibition
+              label: "단체전"
+      - name: dates
+        label: "기간 (표시 문구)"
+        type: string
+      - name: venue
+        label: "전시장"
+        type: string
+      - name: city
+        label: "도시"
+        type: string
+      - name: image
+        label: "전시 대표 이미지"
+        type: image
+      - name: gallery
+        label: "전시 전경 및 기록 사진 (여러 장)"
+        type: image
+        options:
+          multiple:
+            max: 60
+      - name: description
+        label: "전시 소개"
+        type: text
+      - name: order
+        label: "정렬 순서 (작을수록 앞에 표시)"
+        type: number
