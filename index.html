@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#ffffff" name="theme-color"/>
+<meta content="Doyeun Kim — paintings, selected works, exhibitions and artist information." name="description"/>
+<title>Home — DOYEUN KIM</title>
+<link href="style.css" rel="stylesheet"/>
+<script defer="" src="script.js"></script>
+<script defer="" src="cms-site.js"></script></head>
+<body data-page="home">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="header-inner shell">
+<a aria-label="DOYEUN KIM homepage" class="brand" href="index.html">DOYEUN KIM<span aria-hidden="true" class="brand-dot">●</span></a>
+<nav aria-label="Main navigation" class="main-nav">
+<a href="works.html">Works</a><a href="exhibitions.html">Exhibitions</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+</nav>
+<button aria-controls="mobile-nav" aria-expanded="false" class="menu-toggle" id="menu-toggle" type="button">Menu <span aria-hidden="true">+</span></button>
+</div>
+<nav aria-label="Mobile navigation" class="mobile-nav shell" hidden="" id="mobile-nav">
+<a href="works.html">Works</a><a href="exhibitions.html">Exhibitions</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+</nav>
+</header>
+<!-- Intro: custom navy screen, moves upward into the white gallery home. -->
+<div aria-hidden="true" aria-label="Opening introduction" class="intro" id="intro">
+<div class="intro-top"><span>DOYEUN KIM</span><span>PAINTING</span></div>
+<div class="intro-center">
+<span class="intro-name">DOYEUN<br/>KIM<span class="intro-dot">.</span></span>
+</div>
+<div class="intro-bottom"><span>PORTFOLIO</span><button class="intro-enter" id="intro-enter" type="button">ENTER <span aria-hidden="true">↗</span></button></div>
+</div>
+<main class="page-main" id="main">
+<!-- FIRST SCREEN: artwork fills screen, intro and navigation remain unchanged. -->
+<section aria-label="Featured painting" class="home-cover">
+<h1 class="visually-hidden">DOYEUN KIM — Paintings</h1>
+<div aria-live="polite" class="art-frame home-cover-frame" id="home-cover-frame"><div class="placeholder"><span class="placeholder-path">대표 이미지 불러오는 중…</span></div></div>
+<div class="home-cover-caption shell" id="home-cover-caption"></div>
+</section>
+<!-- TWO MORE WORKS, ONE PER ROW. Replace links and filenames freely. -->
+<section aria-labelledby="home-selected-title" class="home-selected shell">
+<div class="home-selected-header">
+<h2 id="home-selected-title">Selected Works</h2>
+<span>PAINTINGS / ARCHIVE</span>
+</div>
+<div class="home-selected-grid" id="home-selected-grid"></div>
+<a class="home-selected-more" href="works.html">All Works <span aria-hidden="true">↗</span></a>
+</section>
+</main>
+<footer class="shell site-footer">
+<span>© 2026 DOYEUN KIM</span>
+<span>PAINTING &amp; SELECTED WORKS</span>
+<div class="footer-links"><button id="replay-intro" type="button">Replay intro ↗</button><a href="index.html">Home ↑</a></div>
+</footer>
+</body>
+</html>

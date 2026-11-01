@@ -1,0 +1,80 @@
+[
+  {
+    "id": "overlapping",
+    "title": "OVERLAPPING WAYS: 겹침새",
+    "year": 2026,
+    "kind": "Solo exhibition",
+    "dates": "September–October 2026",
+    "venue": "Daelimchanggo Gallery",
+    "city": "Seoul",
+    "image": "images/ex-overlapping.jpg",
+    "gallery": [],
+    "description": "대림창고 갤러리에서 열린 개인전입니다. 전시 소개글을 직접 입력해 주세요.",
+    "order": 1
+  },
+  {
+    "id": "spectra",
+    "title": "SPECTRA",
+    "year": 2026,
+    "kind": "Solo exhibition",
+    "dates": "13–30 August 2026",
+    "venue": "Gallery Mei",
+    "city": "Busan",
+    "image": "images/ex-spectra.jpg",
+    "gallery": [],
+    "description": "부산 Gallery Mei에서 열린 개인전입니다. 전시 소개글을 직접 입력해 주세요.",
+    "order": 2
+  },
+  {
+    "id": "unfold",
+    "title": "UNFOLD",
+    "year": 2026,
+    "kind": "Group exhibition",
+    "dates": "3–16 September 2026",
+    "venue": "Regina Gallery",
+    "city": "",
+    "image": "images/ex-unfold.jpg",
+    "gallery": [],
+    "description": "전시 소개글을 직접 입력해 주세요.",
+    "order": 3
+  },
+  {
+    "id": "bridge",
+    "title": "Bridge Project 2026",
+    "year": 2026,
+    "kind": "Group exhibition",
+    "dates": "2026",
+    "venue": "Artspace LAF",
+    "city": "",
+    "image": "images/ex-bridge.jpg",
+    "gallery": [],
+    "description": "전시 소개글을 직접 입력해 주세요.",
+    "order": 4
+  },
+  {
+    "id": "papertown",
+    "title": "페이퍼 타운",
+    "year": 2025,
+    "kind": "Group exhibition",
+    "dates": "2025",
+    "venue": "아이테르 범일가옥",
+    "city": "Busan",
+    "image": "images/ex-papertown.jpg",
+    "gallery": [],
+    "description": "전시 소개글을 직접 입력해 주세요.",
+    "order": 5
+  },
+  {
+    "id": "hiddenstories",
+    "title": "숨은 이야기",
+    "year": 2024,
+    "kind": "Group exhibition",
+    "dates": "2024",
+    "venue": "마포아트센터",
+    "city": "Seoul",
+    "image": "images/ex-hiddenstories.jpg",
+    "gallery": [],
+    "description": "전시 소개글을 직접 입력해 주세요.",
+    "order": 6
+  }
+]
