@@ -6,10 +6,6 @@
     "material": "Mixed media on linen",
     "size": "195 × 380 cm",
     "image": "images/garden.jpg",
-    "detail_images": [
-      "images/garden.jpg",
-      "images/file.jpg"
-    ],
     "home_position": "cover",
     "order": 1
   },
@@ -19,6 +15,7 @@
     "year": 2026,
     "material": "Mixed media on linen",
     "size": "162.2 × 112.1 cm",
+    "image": "images/(300dpi)즉흥을 가장한 계획(수정2).jpg",
     "home_position": "selected",
     "order": 2
   },
