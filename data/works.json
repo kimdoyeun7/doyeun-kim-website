@@ -6,9 +6,6 @@
     "material": "Mixed media on linen",
     "size": "195 × 380 cm",
     "image": "images/garden.jpg",
-    "detail_images": [],
-    "process_images": [],
-    "description": "",
     "home_position": "cover",
     "order": 1
   },
@@ -18,10 +15,6 @@
     "year": 2026,
     "material": "Mixed media on linen",
     "size": "162.2 × 112.1 cm",
-    "image": "images/plan.jpg",
-    "detail_images": [],
-    "process_images": [],
-    "description": "",
     "home_position": "selected",
     "order": 2
   },
@@ -31,10 +24,6 @@
     "year": 2026,
     "material": "Mixed media on linen",
     "size": "162.2 × 112.1 cm",
-    "image": "images/growth.jpg",
-    "detail_images": [],
-    "process_images": [],
-    "description": "",
     "home_position": "selected",
     "order": 3
   },
@@ -44,10 +33,6 @@
     "year": 2026,
     "material": "Acrylic on canvas",
     "size": "112.1 × 145.5 cm",
-    "image": "images/flow.jpg",
-    "detail_images": [],
-    "process_images": [],
-    "description": "",
     "home_position": "archive",
     "order": 4
   },
@@ -57,10 +42,6 @@
     "year": 2026,
     "material": "Acrylic on canvas",
     "size": "60.6 × 45.5 cm",
-    "image": "images/relay.jpg",
-    "detail_images": [],
-    "process_images": [],
-    "description": "",
     "home_position": "archive",
     "order": 5
   }
