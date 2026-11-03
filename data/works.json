@@ -192,5 +192,16 @@
     "image": "images/근접상태(그림자O) 복사.jpg",
     "home_position": "archive",
     "order": 17
+  },
+  {
+    "id": "patch",
+    "title": "Patch",
+    "year": 2026,
+    "year_display": "2026",
+    "material": "Mixed media on unstretched canvas (segmented image transfer, acrylic",
+    "size": "90.9 × 72.7 cm",
+    "image": "images/Patch 복사.jpg",
+    "home_position": "archive",
+    "order": 18
   }
 ]
