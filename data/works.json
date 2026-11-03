@@ -243,9 +243,20 @@
     "year": 2025,
     "year_display": "2025",
     "material": "Mixed media on linen (segmented image transfer, acrylic)",
-    "size": "18×14cm",
+    "size": "18 × 14cm",
     "image": "images/0F_1.jpg",
     "home_position": "archive",
     "order": 22
+  },
+  {
+    "id": "transition",
+    "title": "Transition",
+    "year": 2025,
+    "year_display": "2025",
+    "material": "Mixed media on linen (segmented image transfer, acrylic)",
+    "size": "18 × 14cm",
+    "image": "images/0F_2 복사.jpg",
+    "home_position": "archive",
+    "order": 23
   }
 ]
