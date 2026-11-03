@@ -824,3 +824,30 @@ body[data-page="exhibition-detail"] main h1 {
     max-width: 320px;
   }
 }
+
+/* About — Language Switch */
+
+.about-language-switch {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 28px;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+}
+
+.about-language-switch a {
+  color: #999;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.about-language-switch a[aria-current="page"] {
+  color: #191919;
+  font-weight: 600;
+}
+
+.about-language-switch a:hover {
+  color: #191919;
+}
