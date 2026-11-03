@@ -88,18 +88,94 @@
       });
     } catch(e){message(cover,loadError(e));}
   }
-  async function worksIndex(){
-    const grid=$('#works-grid');if(!grid)return;
-    try {
-      const works=await load('works'); clear(grid);
-      if(!works.length) return attach(grid,make('p','cms-empty','등록된 작품이 없습니다.'));
-      works.forEach(w=>{
-        const article=make('article','work-card');
-        const a=make('a','work-link'); a.href=link('artwork',w);a.setAttribute('aria-label',`${w.title} — open artwork page`);
-        attach(a,frame(w.image,`${w.title} (${w.year}) by Doyeun Kim`),caption(w.title,w.year,'work-caption'));
-        attach(article,a);grid.appendChild(article);
+
+async function worksIndex() {
+  const grid = $('#works-grid');
+  if (!grid) return;
+
+  const filter = $('#works-year-filter');
+
+  try {
+    const works = await load('works');
+
+    const years = [...new Set(
+      works.map(w => String(w.year || '')).filter(Boolean)
+    )].sort((a, b) => Number(b) - Number(a));
+
+    function showWorks(selected) {
+      clear(grid);
+
+      const visible = selected === 'All'
+        ? works
+        : works.filter(w => String(w.year) === selected);
+
+      if (!visible.length) {
+        grid.appendChild(
+          make('p', 'cms-empty', '등록된 작품이 없습니다.')
+        );
+      }
+
+      visible.forEach(w => {
+        const article = make('article', 'work-card');
+        const a = make('a', 'work-link');
+
+        a.href = link('artwork', w);
+        a.setAttribute(
+          'aria-label',
+          `${w.title} — open artwork page`
+        );
+
+        attach(
+          a,
+          frame(
+            w.image,
+            `${w.title} (${w.year}) by Doyeun Kim`
+          ),
+          caption(w.title, w.year, 'work-caption')
+        );
+
+        attach(article, a);
+        grid.appendChild(article);
       });
-    }catch(e){message(grid,loadError(e));}
+
+      if (filter) {
+        filter.querySelectorAll('button').forEach(btn => {
+          btn.setAttribute(
+            'aria-pressed',
+            String(btn.dataset.year === selected)
+          );
+        });
+      }
+    }
+
+    if (filter) {
+      clear(filter);
+
+      ['All', ...years].forEach(year => {
+        const btn = make(
+          'button',
+          'works-year-button',
+          year
+        );
+
+        btn.type = 'button';
+        btn.dataset.year = year;
+
+        btn.addEventListener('click', () => {
+          showWorks(year);
+        });
+
+        filter.appendChild(btn);
+      });
+    }
+
+    showWorks('All');
+
+  } catch (e) {
+    message(grid, loadError(e));
+  }
+}
+
   }
   async function exhibitionsIndex(){
     const list=$('#exhibition-list');if(!list)return;
