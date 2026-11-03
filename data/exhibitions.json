@@ -31,6 +31,23 @@
     "dates": "13–30 August 2026",
     "venue": "Gallery Mei",
     "city": "Busan",
+    "image": "images/exhibitions/spectra/ Do Yeun Kim_Spectra_012.jpg",
+    "gallery": [
+      "images/exhibitions/spectra/ Do Yeun Kim_Spectra_001.jpg",
+      "images/exhibitions/spectra/ Do Yeun Kim_Spectra_002(1).jpg",
+      "images/exhibitions/spectra/ Do Yeun Kim_Spectra_005.jpg",
+      "images/exhibitions/spectra/ Do Yeun Kim_Spectra_006 (1).jpg",
+      "images/exhibitions/spectra/ Do Yeun Kim_Spectra_007 (1).jpg",
+      "images/exhibitions/spectra/ Do Yeun Kim_Spectra_008.jpg",
+      "images/exhibitions/spectra/ Do Yeun Kim_Spectra_009.jpg",
+      "images/exhibitions/spectra/ Do Yeun Kim_Spectra_003.jpg",
+      "images/exhibitions/spectra/Do Yeun Kim_Spectra_016.jpg",
+      "images/exhibitions/spectra/ Do Yeun Kim_Spectra_004.jpg",
+      "images/exhibitions/spectra/ Do Yeun Kim_Spectra_017.jpg",
+      "images/exhibitions/spectra/ Do Yeun Kim_Spectra_015.jpg",
+      "images/exhibitions/spectra/ Do Yeun Kim_Spectra_013.jpg",
+      "images/exhibitions/spectra/ Do Yeun Kim_Spectra_014 (1).jpg"
+    ],
     "description": "부산 Gallery Mei에서 열린 개인전입니다. 전시 소개글을 직접 입력해 주세요.",
     "order": 2
   },
