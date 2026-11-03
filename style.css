@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/yyb2pbm.css");
 /* DOYEUN KIM / WEBSITE V3 — DESIGN SETTINGS
    Change just these colors first. All regular page backgrounds remain white. */
 :root {
@@ -760,4 +761,26 @@ hr,
   .intro-name {
     letter-spacing: -0.09em;
   }
+}
+
+/* NEUE HAAS GROTESK — WEBSITE TYPOGRAPHY */
+
+/* Website text */
+body,
+button,
+input,
+textarea,
+select {
+  font-family:
+    "neue-haas-grotesk-text",
+    "Apple SD Gothic Neo",
+    sans-serif;
+}
+
+/* Intro typography */
+.intro-name {
+  font-family:
+    "neue-haas-grotesk-display",
+    "Apple SD Gothic Neo",
+    sans-serif;
 }
