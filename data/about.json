@@ -1,6 +1,20 @@
-
 {
-  "statement_ko": "",
-  "statement_en": "",
-  "cv_sections": []
+  "cv_sections": [
+    {
+      "title_ko": "학력",
+      "title_en": "Education",
+      "entries": [
+        {
+          "year": "2026–",
+          "description_ko": "홍익대학교 일반대학원 회화과 석사과정 재학",
+          "description_en": "M.F.A. in Painting, Hongik University, Seoul "
+        },
+        {
+          "year": "2026",
+          "description_ko": "홍익대학교 미술대학 회화과 학사 졸업",
+          "description_en": "B.F.A. in Painting, Hongik University, Seoul "
+        }
+      ]
+    }
+  ]
 }
