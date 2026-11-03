@@ -26,6 +26,9 @@ content:
         label: "제작 연도"
         type: number
         required: true
+        - name: year_display
+        label: "캡션 표시 연도 (예: 2025–2026)"
+        type: string
       - name: material
         label: "재료 (영문 캡션)"
         type: string
