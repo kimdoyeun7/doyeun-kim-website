@@ -214,5 +214,16 @@
     "image": "images/40M_1  복사.jpg",
     "home_position": "archive",
     "order": 19
+  },
+  {
+    "id": "cut",
+    "title": "Cut Across",
+    "year": 2025,
+    "year_display": "2025",
+    "material": "Mixed media on canvas (segmented image transfer, acrylic)",
+    "size": "100 × 65.1 cm",
+    "image": "images/40M(2) 복사.jpg",
+    "home_position": "archive",
+    "order": 20
   }
 ]
