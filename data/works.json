@@ -115,5 +115,16 @@
     "image": "images/2_1호_3.jpg",
     "home_position": "archive",
     "order": 10
+  },
+  {
+    "id": "bloom",
+    "title": "Bloom",
+    "year": 2026,
+    "year_display": "2026",
+    "material": "Mixed media on canvas (segmented image transfer, acrylic)",
+    "size": "22.7 x 15.8 cm",
+    "image": "images/1호_5 복사3.jpg",
+    "home_position": "archive",
+    "order": 11
   }
 ]
