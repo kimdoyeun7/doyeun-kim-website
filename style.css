@@ -783,3 +783,22 @@ select {
     "Apple SD Gothic Neo",
     sans-serif;
 }
+
+/* Artwork & Exhibition Detail — Smaller Titles */
+
+body[data-page="work-detail"] main h1,
+body[data-page="exhibition-detail"] main h1 {
+  font-size: 26px !important;
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  body[data-page="work-detail"] main h1,
+  body[data-page="exhibition-detail"] main h1 {
+    font-size: 21px !important;
+    line-height: 1.4;
+  }
+}
