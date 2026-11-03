@@ -214,5 +214,16 @@
     "image": "images/(웹사이트)40M(2).jpg",
     "home_position": "archive",
     "order": 19
+  },
+  {
+    "id": "traces",
+    "title": "Traces and Cracks",
+    "year": 2025,
+    "year_display": "2025",
+    "material": "Mixed media on unstretched canvas (segmented image transfer, acrylic)",
+    "size": "165 × 175 cm",
+    "image": "images/웹사이트_흔적과 틈(포토샵편집_11.jpg",
+    "home_position": "archive",
+    "order": 20
   }
 ]
