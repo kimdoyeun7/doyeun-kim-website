@@ -31,6 +31,22 @@
           "description_en": "Spectra, Gallery Mei, Busan, KR"
         }
       ]
+    },
+    {
+      "title_ko": "기획전 및 단체전",
+      "title_en": "Curated & Group Exhibitions",
+      "entries": [
+        {
+          "year": "2026",
+          "description_ko": "UNFOLD, 레지나 갤러리, 서울, 대한민국",
+          "description_en": "UNFOLD, Regina Gallery, Seoul, KR"
+        },
+        {
+          "year": "2026",
+          "description_ko": "Bridge Project, 아트스페이스 라프, 서울, 대한민국",
+          "description_en": "Bridge Project, Artspace LAF, Seoul, KR"
+        }
+      ]
     }
   ]
 }
