@@ -72,5 +72,28 @@
     "image": "images/Relay 복사.jpg",
     "home_position": "archive",
     "order": 7
+  },
+  {
+    "id": "continuum",
+    "title": "Continuum",
+    "year": 2026,
+    "material": "Mixed media on canvas (segmented image transfer, acrylic)",
+    "size": "35 x 324.1 cm",
+    "image": "images/(그림자O)continuum 복사.jpg",
+    "detail_images": [
+      "images/컨티늄 디테일컷 복사.jpg"
+    ],
+    "home_position": "archive",
+    "order": 8
+  },
+  {
+    "id": "directions",
+    "title": "Directions after Erasure",
+    "year": 2026,
+    "material": "Mixed media on canvas (segmented image transfer, acrylic)",
+    "size": "60 × 30 cm",
+    "image": "images/Directions After Erasure .jpg",
+    "home_position": "archive",
+    "order": 9
   }
 ]
