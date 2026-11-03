@@ -181,5 +181,16 @@
     "image": "images/퍼즐맞추기_그림자 O 복사.jpg",
     "home_position": "archive",
     "order": 16
+  },
+  {
+    "id": "state",
+    "title": "근접상태 (State of Proximity)",
+    "year": 2026,
+    "year_display": "2026",
+    "material": "Mixed media on linen (segmented image transfer, acrylic)",
+    "size": "60.6 x 45.5 cm",
+    "image": "images/근접상태(그림자O) 복사.jpg",
+    "home_position": "archive",
+    "order": 17
   }
 ]
