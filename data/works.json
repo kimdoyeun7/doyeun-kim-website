@@ -203,5 +203,16 @@
     "image": "images/Patch(보정) 복사.jpg",
     "home_position": "archive",
     "order": 18
+  },
+  {
+    "id": "turning",
+    "title": "Turning Point",
+    "year": 2025,
+    "year_display": "2025",
+    "material": "Mixed media on canvas (segmented image transfer, acrylic)",
+    "size": "100 × 65.1 cm",
+    "image": "images/40M_1  복사.jpg",
+    "home_position": "archive",
+    "order": 19
   }
 ]
