@@ -172,17 +172,6 @@
     "order": 15
   },
   {
-    "id": "fitting",
-    "title": "퍼즐 맞추기 (Fitting the Pieces)",
-    "year": 2026,
-    "year_display": "2026",
-    "material": "Mixed media on linen (segmented image transfer, acrylic)",
-    "size": "60.6 x 45.5 cm",
-    "image": "images/퍼즐맞추기_그림자 O 복사.jpg",
-    "home_position": "archive",
-    "order": 16
-  },
-  {
     "id": "state",
     "title": "근접상태 (State of Proximity)",
     "year": 2026,
@@ -191,7 +180,7 @@
     "size": "60.6 x 45.5 cm",
     "image": "images/근접상태(그림자O) 복사.jpg",
     "home_position": "archive",
-    "order": 17
+    "order": 16
   },
   {
     "id": "patch",
@@ -202,7 +191,7 @@
     "size": "90.9 × 72.7 cm",
     "image": "images/Patch(보정) 복사.jpg",
     "home_position": "archive",
-    "order": 18
+    "order": 17
   },
   {
     "id": "turning",
@@ -213,7 +202,7 @@
     "size": "100 × 65.1 cm",
     "image": "images/40M_1  복사.jpg",
     "home_position": "archive",
-    "order": 19
+    "order": 18
   },
   {
     "id": "cut",
@@ -224,6 +213,6 @@
     "size": "100 × 65.1 cm",
     "image": "images/40M(2) 복사.jpg",
     "home_position": "archive",
-    "order": 20
+    "order": 19
   }
 ]
