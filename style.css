@@ -752,16 +752,15 @@ hr,
 /* INTRO — Refined letter spacing */
 
 .intro-name {
-  letter-spacing: 0.01em;
+  letter-spacing: -0.035em;
 }
 
 /* Mobile */
 @media (max-width: 700px) {
   .intro-name {
-    letter-spacing: -0.015em;
+    letter-spacing: -0.035em;
   }
 }
-
 
 /* NEUE HAAS GROTESK — WEBSITE TYPOGRAPHY */
 
