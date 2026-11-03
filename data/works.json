@@ -18,7 +18,7 @@
     "material": "Mixed media on linen (segmented image transfer, acrylic)",
     "size": "112.1 × 162.2 cm",
     "image": "images/웹사이트_즉흥을 가장한 계획(수정2) 복사.jpg",
-    "home_position": "selected",
+    "home_position": "archive",
     "order": 2
   },
   {
@@ -29,7 +29,7 @@
     "material": "Mixed media on linen (segmented image transfer, acrylic)",
     "size": "112.1 × 162.2 cm",
     "image": "images/(300ppi)(촬영본)겹친이후.jpg",
-    "home_position": "selected",
+    "home_position": "archive",
     "order": 3
   },
   {
@@ -40,7 +40,7 @@
     "material": "Mixed media on canvas (segmented image transfer, acrylic)",
     "size": "33.4 × 24.1 cm",
     "image": "images/shadow-work-01.jpg",
-    "home_position": "archive",
+    "home_position": "selected",
     "order": 4
   },
   {
@@ -55,7 +55,7 @@
       "images/디테일컷1_100P_3 복사.jpg",
       "images/디테일컷2_100P_3 복사.jpg"
     ],
-    "home_position": "archive",
+    "home_position": "selected",
     "order": 5
   },
   {
