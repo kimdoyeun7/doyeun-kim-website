@@ -15,6 +15,22 @@
           "description_en": "B.F.A. in Painting, Hongik University, Seoul "
         }
       ]
+    },
+    {
+      "title_ko": "개인전",
+      "title_en": "Solo Exhibitions",
+      "entries": [
+        {
+          "year": "2026",
+          "description_ko": "Overlapping Ways 겹침새, 대림창고 갤러리, 서울, 대한민국",
+          "description_en": "Overlapping Ways, Daelimchanggo Gallery, Seoul, KR"
+        },
+        {
+          "year": "2026",
+          "description_ko": "Spectra 스펙트라, 갤러리 메이, 부산, 대한민국",
+          "description_en": "Spectra, Gallery Mei, Busan, KR"
+        }
+      ]
     }
   ]
 }
