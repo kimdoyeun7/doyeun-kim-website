@@ -1,7 +1,7 @@
 [
   {
     "id": "garden",
-    "title": "A Kind of Garden",
+    "title": "어떤 정원 (A Kind of Garden)",
     "year": 2026,
     "material": "Mixed media on linen",
     "size": "195 × 380 cm",
@@ -11,42 +11,56 @@
   },
   {
     "id": "plan",
-    "title": "즉흥을 가장한 계획",
+    "title": "즉흥을 가장한 계획 (A Plan Disguised as Spontaneity)",
     "year": 2026,
-    "material": "Mixed media on linen",
-    "size": "162.2 × 112.1 cm",
+    "material": "Mixed media on linen (segmented image transfer, acrylic)",
+    "size": "112.1 × 162.2 cm",
     "image": "images/웹사이트_즉흥을 가장한 계획(수정2) 복사.jpg",
     "home_position": "selected",
     "order": 2
   },
   {
-    "id": "growth",
-    "title": "이상 증식",
+    "id": "where",
+    "title": "어디서 왔지? (Where Did It Come From?)",
     "year": 2026,
-    "material": "Mixed media on linen",
-    "size": "162.2 × 112.1 cm",
-    "image": "images/(300ppi)(촬영본)겹친이후.jpg",
-    "home_position": "selected",
+    "material": "Mixed media on canvas (segmented image transfer, acrylic)",
+    "size": "33.4 × 24.1 cm",
+    "image": "images/(그림자O) 어디서 왔지? .jpg",
+    "home_position": "archive",
     "order": 3
   },
   {
-    "id": "flow",
-    "title": "흐르고 자라는 것",
+    "id": "growth",
+    "title": "이상 증식 (Anomalous Growth)",
     "year": 2026,
-    "material": "Acrylic on canvas",
-    "size": "112.1 × 145.5 cm",
-    "image": "images/100P_3 복사.jpg",
-    "home_position": "archive",
+    "material": "Mixed media on linen (segmented image transfer, acrylic)",
+    "size": "112.1 × 162.2 cm",
+    "image": "images/(300ppi)(촬영본)겹친이후.jpg",
+    "home_position": "selected",
     "order": 4
+  },
+  {
+    "id": "flow",
+    "title": "흐르고 자라는 것 (Flow, Then Growth)",
+    "year": 2026,
+    "material": "Mixed media on canvas (segmented image transfer, acrylic)",
+    "size": "112.1 × 162.2 cm",
+    "image": "images/100P_3 복사.jpg",
+    "detail_images": [
+      "images/디테일컷1_100P_3 복사.jpg",
+      "images/디테일컷2_100P_3 복사.jpg"
+    ],
+    "home_position": "archive",
+    "order": 5
   },
   {
     "id": "relay",
     "title": "Relay",
     "year": 2026,
-    "material": "Acrylic on canvas",
+    "material": "Mixed media on canvas (segmented image transfer, acrylic)",
     "size": "60.6 × 45.5 cm",
     "image": "images/Relay 복사.jpg",
     "home_position": "archive",
-    "order": 5
+    "order": 6
   }
 ]
