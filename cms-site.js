@@ -93,8 +93,52 @@
     try {
       const works=await load('works'); clear(grid);
       if(!works.length) return attach(grid,make('p','cms-empty','등록된 작품이 없습니다.'));
+
+/* Works — year filter */
+
+const yearFilter = make('nav', 'works-year-filter');
+yearFilter.setAttribute('aria-label', 'Filter artworks by year');
+
+const years = [...new Set(
+  works.map(w => String(w.year ?? '').trim()).filter(Boolean)
+)].sort((a, b) => Number(b) - Number(a));
+
+function chooseYear(selected) {
+  grid.querySelectorAll('.work-card').forEach(card => {
+    card.hidden = selected !== 'All' &&
+                  card.dataset.year !== selected;
+  });
+
+  yearFilter.querySelectorAll('button').forEach(btn => {
+    btn.setAttribute(
+      'aria-pressed',
+      String(btn.dataset.year === selected)
+    );
+  });
+}
+
+['All', ...years].forEach(year => {
+  const button = make('button', 'works-year-button', year);
+  button.type = 'button';
+  button.dataset.year = year;
+  button.addEventListener('click', () => chooseYear(year));
+  yearFilter.appendChild(button);
+});
+
+const heading = $('.works-heading');
+
+if (heading) {
+  heading.querySelector('.works-year-filter')?.remove();
+  heading.appendChild(yearFilter);
+}
+
+chooseYear('All');
+
       works.forEach(w=>{
         const article=make('article','work-card');
+
+article.dataset.year = String(w.year ?? '').trim();
+
         const a=make('a','work-link'); a.href=link('artwork',w);a.setAttribute('aria-label',`${w.title} — open artwork page`);
         attach(a,frame(w.image,`${w.title} (${w.year}) by Doyeun Kim`),caption(w.title,w.year,'work-caption'));
         attach(article,a);grid.appendChild(article);
