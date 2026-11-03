@@ -749,19 +749,19 @@ hr,
 .intro-name {
   line-height: 0.88;
 }
-/* INTRO — Adjust horizontal letter spacing */
+/* INTRO — Refined letter spacing */
 
 .intro-name {
-  letter-spacing: -0.075em;
+  letter-spacing: 0.01em;
 }
 
-/* Mobile — slightly tighter to prevent overflow */
-
+/* Mobile */
 @media (max-width: 700px) {
   .intro-name {
-    letter-spacing: -0.09em;
+    letter-spacing: -0.015em;
   }
 }
+
 
 /* NEUE HAAS GROTESK — WEBSITE TYPOGRAPHY */
 
