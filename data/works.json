@@ -3,6 +3,7 @@
     "id": "garden",
     "title": "어떤 정원 (A Kind of Garden)",
     "year": 2026,
+    "year_display": "2026",
     "material": "Mixed media on linen",
     "size": "195 × 380 cm",
     "image": "images/garden.jpg",
@@ -13,9 +14,10 @@
     "id": "plan",
     "title": "즉흥을 가장한 계획 (A Plan Disguised as Spontaneity)",
     "year": 2026,
+    "year_display": "2026",
     "material": "Mixed media on linen (segmented image transfer, acrylic)",
     "size": "112.1 × 162.2 cm",
-    "image": "images/웹사이트_즉흥을 가장한 계획(수정2) 복사.jpg",
+    "image": "images/웹사이트_즉흥을 가장한 계획(수정2) 복사.jpg",
     "home_position": "selected",
     "order": 2
   },
@@ -23,9 +25,10 @@
     "id": "growth",
     "title": "이상 증식 (Anomalous Growth)",
     "year": 2026,
+    "year_display": "2026",
     "material": "Mixed media on linen (segmented image transfer, acrylic)",
     "size": "112.1 × 162.2 cm",
-    "image": "images/(300ppi)(촬영본)겹친이후.jpg",
+    "image": "images/(300ppi)(촬영본)겹친이후.jpg",
     "home_position": "selected",
     "order": 3
   },
@@ -33,6 +36,7 @@
     "id": "where",
     "title": "어디서 왔지? (Where Did It Come From?)",
     "year": 2026,
+    "year_display": "2026",
     "material": "Mixed media on canvas (segmented image transfer, acrylic)",
     "size": "33.4 × 24.1 cm",
     "image": "images/shadow-work-01.jpg",
@@ -43,12 +47,13 @@
     "id": "flow",
     "title": "흐르고 자라는 것 (Flow, Then Growth)",
     "year": 2026,
+    "year_display": "2026",
     "material": "Mixed media on canvas (segmented image transfer, acrylic)",
     "size": "112.1 × 162.2 cm",
-    "image": "images/100P_3 복사.jpg",
+    "image": "images/100P_3 복사.jpg",
     "detail_images": [
       "images/디테일컷1_100P_3 복사.jpg",
-      "images/디테일컷2_100P_3 복사.jpg"
+      "images/디테일컷2_100P_3 복사.jpg"
     ],
     "home_position": "archive",
     "order": 5
@@ -57,26 +62,18 @@
     "id": "before",
     "title": "Before the Image Breaks",
     "year": 2026,
+    "year_display": "2025-2026",
     "material": "Mixed media on linen (segmented image transfer, acrylic)",
     "size": "162.1 × 227.3 cm",
-    "image": "images/(2026)Before the Image Breaks 복사.jpg",
+    "image": "images/(2026)Before the Image Breaks 복사.jpg",
     "home_position": "archive",
     "order": 6
-  },
-  {
-    "id": "relay",
-    "title": "Relay",
-    "year": 2026,
-    "material": "Mixed media on canvas (segmented image transfer, acrylic)",
-    "size": "60.6 × 45.5 cm",
-    "image": "images/Relay 복사.jpg",
-    "home_position": "archive",
-    "order": 7
   },
   {
     "id": "continuum",
     "title": "Continuum",
     "year": 2026,
+    "year_display": "2026",
     "material": "Mixed media on canvas (segmented image transfer, acrylic)",
     "size": "35 x 324.1 cm",
     "image": "images/(그림자O)continuum 복사.jpg",
@@ -84,15 +81,27 @@
       "images/컨티늄 디테일컷 복사.jpg"
     ],
     "home_position": "archive",
-    "order": 8
+    "order": 7
   },
   {
     "id": "directions",
     "title": "Directions after Erasure",
     "year": 2026,
+    "year_display": "2026",
     "material": "Mixed media on canvas (segmented image transfer, acrylic)",
     "size": "60 × 30 cm",
     "image": "images/Directions After Erasure .jpg",
+    "home_position": "archive",
+    "order": 8
+  },
+  {
+    "id": "relay",
+    "title": "Relay",
+    "year": 2026,
+    "year_display": "2026",
+    "material": "Mixed media on canvas (segmented image transfer, acrylic)",
+    "size": "60.6 × 45.5 cm",
+    "image": "images/Relay 복사.jpg",
     "home_position": "archive",
     "order": 9
   }
