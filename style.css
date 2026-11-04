@@ -1053,3 +1053,11 @@ body[data-page="texts"] .texts-title .texts-dot {
   }
 }
 
+/* Remove title dots from CV, Texts and Contact */
+
+body[data-page="about"] .page-title > span,
+body[data-page="texts"] .texts-title .texts-dot,
+body[data-page="contact"] .page-title > span {
+  display: none !important;
+}
+
