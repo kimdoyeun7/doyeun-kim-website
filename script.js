@@ -77,3 +77,26 @@
     if (image.complete) reveal();
   });
 })();
+
+/* Add Texts to navigation */
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".main-nav, #mobile-nav")
+    .forEach(nav => {
+      if (nav.querySelector('a[href="texts.html"]')) return;
+
+      const cvLink = nav.querySelector('a[href="about.html"]');
+      if (!cvLink) return;
+
+      const link = document.createElement("a");
+      link.href = "texts.html";
+      link.textContent = "Texts";
+
+      cvLink.insertAdjacentElement("afterend", link);
+
+      if (document.body.dataset.page === "texts") {
+        cvLink.removeAttribute("aria-current");
+        link.setAttribute("aria-current", "page");
+      }
+    });
+});
