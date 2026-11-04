@@ -129,14 +129,6 @@ content:
     path: data/about.json
     format: json
     fields:
-      - name: statement_ko
-        label: "작가노트 (한국어)"
-        type: text
-
-      - name: statement_en
-        label: "Artist Statement (English)"
-        type: text
-
       - name: cv_sections
         label: "CV / 작가 이력"
         type: object
