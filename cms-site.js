@@ -226,6 +226,15 @@ article.dataset.year = String(w.year ?? '').trim();
         target.appendChild(about);
       }
       imageGallery(target,'Installation views',galleryItems(item.gallery),`${item.title} — installation view`);
+      /* Exhibition photography credit */
+      const photographer = String(item.photo_credit || "").trim();
+      if (photographer) {
+        const credit = document.createElement("p");
+        credit.className = "exhibition-photo-credit";
+        credit.textContent = "Installation photography: " + photographer;
+        target.appendChild(credit);
+      }
+
       bottomNav(target,list,i,'exhibition','Exhibitions');
     }catch(e){message(target,loadError(e));}
   }

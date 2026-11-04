@@ -1260,3 +1260,22 @@ body[data-page="home"] #home-cover-frame img {
     font-size: 18px;
   }
 }
+
+/* Exhibition photography credit */
+
+.exhibition-photo-credit {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #888888;
+  text-align: right;
+  margin: 18px 0 45px;
+  letter-spacing: 0;
+}
+
+@media (max-width: 700px) {
+  .exhibition-photo-credit {
+    font-size: 11px;
+    margin: 14px 0 32px;
+  }
+}

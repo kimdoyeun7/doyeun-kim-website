@@ -117,7 +117,10 @@ content:
             max: 60
       - name: description
         label: "전시 소개"
-        type: text
+        type: text        
+      - name: photo_credit
+        label: "전시 전경 사진 촬영자 (Photography Credit)"
+        type: string 
       - name: order
         label: "정렬 순서 (작을수록 앞에 표시)"
         type: number
