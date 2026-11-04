@@ -124,7 +124,7 @@ content:
 
 
   - name: about
-    label: "About / 작가 정보 관리"
+    label: "CV / 작가 이력 관리"
     type: file
     path: data/about.json
     format: json
