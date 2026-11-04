@@ -164,3 +164,71 @@ content:
               - name: description_en
                 label: "Description (English)"
                 type: string
+
+
+  - name: texts
+    label: "Texts / 글 관리"
+    type: file
+    path: data/texts.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: "고유 ID (영문 소문자/숫자/하이픈)"
+        type: string
+        required: true
+        pattern: "^[a-z0-9-]+$"
+
+      - name: category
+        label: "글 종류"
+        type: select
+        required: true
+        options:
+          values:
+            - name: artist-statement
+              label: "Artist Statement / 작가노트"
+            - name: critical-essay
+              label: "Critical Essay / 평론"
+            - name: review
+              label: "Review / 리뷰"
+            - name: interview
+              label: "Interview / 인터뷰"
+            - name: other
+              label: "Other / 기타"
+
+      - name: title_ko
+        label: "제목 (한국어)"
+        type: string
+        required: true
+
+      - name: title_en
+        label: "Title (English)"
+        type: string
+
+      - name: author_ko
+        label: "필자 (한국어)"
+        type: string
+
+      - name: author_en
+        label: "Author (English)"
+        type: string
+
+      - name: year
+        label: "작성 또는 발표 연도"
+        type: number
+
+      - name: source
+        label: "발표 매체 / 출처 (선택)"
+        type: string
+
+      - name: body_ko
+        label: "본문 (한국어)"
+        type: text
+
+      - name: body_en
+        label: "Body (English)"
+        type: text
+
+      - name: order
+        label: "정렬 순서 (작을수록 앞에 표시)"
+        type: number
