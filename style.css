@@ -1029,3 +1029,27 @@ body[data-page="texts"] {
     line-height: 1.85;
   }
 }
+
+
+/* Texts title — responsive dot spacing */
+
+body[data-page="texts"] .texts-title {
+  display: inline-flex;
+  align-items: baseline;
+  column-gap: 0.07em;
+  white-space: nowrap;
+}
+
+body[data-page="texts"] .texts-title .texts-dot {
+  display: inline-block;
+  margin-left: 0;
+  letter-spacing: 0;
+  flex-shrink: 0;
+}
+
+@media (max-width: 700px) {
+  body[data-page="texts"] .texts-title {
+    column-gap: 0.1em;
+  }
+}
+
