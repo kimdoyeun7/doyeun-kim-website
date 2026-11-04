@@ -1061,3 +1061,44 @@ body[data-page="contact"] .page-title > span {
   display: none !important;
 }
 
+
+/* Main page headings — unified size */
+
+body[data-page="works"] .page-title,
+body[data-page="exhibitions"] .page-title,
+body[data-page="about"] .page-title,
+body[data-page="contact"] .page-title,
+body[data-page="texts"] .texts-title {
+  font-size: clamp(32px, 3.2vw, 44px) !important;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  body[data-page="works"] .page-title,
+  body[data-page="exhibitions"] .page-title,
+  body[data-page="about"] .page-title,
+  body[data-page="contact"] .page-title,
+  body[data-page="texts"] .texts-title {
+    font-size: 32px !important;
+    line-height: 1.2;
+  }
+}
+
+/* Works & Exhibitions — heading size */
+
+h1.portfolio-index-title {
+  font-size: clamp(32px, 3.2vw, 44px) !important;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+
+@media (max-width: 700px) {
+  h1.portfolio-index-title {
+    font-size: 32px !important;
+  }
+}
+
