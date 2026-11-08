@@ -5,7 +5,7 @@
     "year": 2026,
     "kind": "Solo exhibition",
     "dates": "September–October 2026",
-    "venue": "Daelimchanggo Gallery",
+    "venue": "대림창고 갤러리 Daelimchanggo Gallery",
     "city": "Seoul",
     "image": "images/exhibitions/overlapping-ways/김도연_6_크롭ver2.jpg",
     "gallery": [
@@ -30,7 +30,7 @@
     "year": 2026,
     "kind": "Solo exhibition",
     "dates": "13–30 August 2026",
-    "venue": "Gallery Mei",
+    "venue": "갤러리 메이 Gallery Mei",
     "city": "Busan",
     "image": "images/exhibitions/spectra/ Do Yeun Kim_Spectra_001.jpg",
     "gallery": [
@@ -58,7 +58,7 @@
     "title": "Bridge Project 2026",
     "year": 2026,
     "kind": "Group exhibition",
-    "dates": "2026. 06. 12  ~ 06. 27 ",
+    "dates": "12 - 27 June 2026",
     "venue": "아트스페이스 라프 Artspace LAF",
     "city": "Seoul",
     "image": "images/exhibitions/bridge-project-2026/도연 작가님_2.jpg",
@@ -76,11 +76,11 @@
     "title": "페이퍼 타운",
     "year": 2025,
     "kind": "Group exhibition",
-    "dates": "2025",
-    "venue": "아이테르 범일가옥",
-    "city": "Busan",
+    "dates": "24 - 29 November 2025",
+    "venue": "홍익대학교 Hongik University",
+    "city": "Seoul",
     "description": "전시 소개글을 직접 입력해 주세요.",
-    "order": 5
+    "order": 4
   },
   {
     "id": "hiddenstories",
