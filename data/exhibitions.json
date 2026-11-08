@@ -67,7 +67,7 @@
       "images/exhibitions/bridge-project-2026/도연 작가님_1.jpg",
       "images/exhibitions/bridge-project-2026/총 전경_2.jpg"
     ],
-    "description": "Bridge Project 2026은 당해연도 졸업자를 대상으로 한 신진작가 전시 프로그램입니다. \n\n-\nartspace laf 선정작가 | 권다현(@_stella.d), 김도연(@kd.yeun), 김시우(@seew6.6), 장영록(@jyr_archive), 조민(@_chomin)\n\n주최·주관 | 아트스페이스 라프\n협력 | 갤러리 A, 공간해안, 아트노이드178",
+    "description": "Bridge Project 2026은 당해 연도 졸업자를 대상으로 한 신진작가 전시 프로그램이다.\n\n-\nartspace laf 선정작가 | 권다현(@_stella.d), 김도연(@kd.yeun), 김시우(@seew6.6), 장영록(@jyr_archive), 조민(@_chomin)\n\n주최·주관 | 아트스페이스 라프\n협력 | 갤러리 A, 공간해안, 아트노이드178",
     "photo_credit": "박지영 (@zz0022_photo)",
     "order": 3
   },
@@ -79,7 +79,11 @@
     "dates": "24 - 29 November 2025",
     "venue": "홍익대학교 Hongik University",
     "city": "Seoul",
-    "description": "전시 소개글을 직접 입력해 주세요.",
+    "image": "images/exhibitions/Connet-2025/(300ppi)졸전전경_수정_폰1 복사.jpg",
+    "gallery": [
+      "images/exhibitions/Connet-2025/졸전전경_수정_폰2 복사.jpg"
+    ],
+    "description": "2025 홍익대학교 회화과 졸업전시\n\n2025 Hongik University Department of Painting Graduation Exhibition",
     "order": 4
   },
   {
