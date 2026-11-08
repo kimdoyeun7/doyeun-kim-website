@@ -1279,3 +1279,47 @@ body[data-page="home"] #home-cover-frame img {
     margin: 14px 0 32px;
   }
 }
+
+/* 1. CV — Typography */
+
+body[data-page="about"] .cv-line {
+  font-size: 14px;
+  grid-template-columns: 90px minmax(0, 1fr);
+}
+
+body[data-page="about"] .cv-block h2 {
+  font-size: 15px;
+}
+
+
+/* 2. EXHIBITIONS — Preserve original image ratio */
+
+body[data-page="exhibition-detail"]
+.exhibition-detail-cover .exhibition-detail-frame {
+  display: block !important;
+  width: 100%;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+}
+
+body[data-page="exhibition-detail"]
+.exhibition-detail-cover .exhibition-detail-frame img {
+  display: block !important;
+  width: auto !important;
+  max-width: 100% !important;
+  height: auto !important;
+  max-height: 90svh !important;
+  object-fit: contain !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* 3. EXHIBITIONS — Smaller About heading */
+
+body[data-page="exhibition-detail"] .exhibition-about h2 {
+  font-size: clamp(20px, 2vw, 28px);
+}
