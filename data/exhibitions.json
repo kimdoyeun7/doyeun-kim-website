@@ -20,7 +20,7 @@
       "images/exhibitions/overlapping-ways/김도연_14_크롭ver1.jpg",
       "images/exhibitions/overlapping-ways/김도연_12.jpg"
     ],
-    "description": "김도연은 디지털 화면 속 이미지가 확대되고 잘리고 복제되며, 끊임없이 다른 모습으로 변하는 과정에 주목한다. 이 과정에서 이미지의 원래 형태와 맥락은 점차 흐려지고, 색과 빛, 윤곽과 같은 감각적인 흔적만 남는다. 작가는 서로 다른 출처에서 가져온 이미지들을 재조합해, 본래는 관계없던 형상들이 한 화면 안에서 만나도록 한다.\n\n《OVERLAPPING WAYS 겹침새》는 그렇게 달라진 형상들이 서로 겹치며 만들어내는 새로운 장면을 보여준다. ‘겹침새’는 서로 다른 것들이 포개지는 방식과 그 사이에서 생겨나는 틈을 함께 가리킨다. 작가는 디지털에서 변형한 이미지를 손으로 전사하고 그 위에 붓질과 물감의 두께를 더한다. 이 과정에서 형상은 밀리거나 어긋나고, 화면에는 서로 다른 시간과 흔적이 함께 쌓인다.\n\n각 작품 안에서 이루어지는 겹침은 대림창고 공간 속 작품과 작품 사이로 확장된다. 공간 곳곳에 놓인 화면들은 하나의 장면으로 이어지기보다 각기 다른 방향과 속도로 관람자의 시선을 이끈다.",
+    "description": "김도연은 디지털 화면 속 이미지가 확대되고 잘리고 복제되며, 끊임없이 다른 모습으로 변하는 과정에 주목한다. 이 과정에서 이미지의 원래 형태와 맥락은 점차 흐려지고, 색과 빛, 윤곽과 같은 감각적인 흔적만 남는다. 작가는 서로 다른 출처에서 가져온 이미지들을 재조합해, 본래는 관계없던 형상들이 한 화면 안에서 만나도록 한다.\n\n《OVERLAPPING WAYS 겹침새》는 그렇게 달라진 형상들이 서로 겹치며 만들어내는 새로운 장면을 보여준다. ‘겹침새’는 서로 다른 것들이 포개지는 방식과 그 사이에서 생겨나는 틈을 함께 가리킨다. 작가는 디지털에서 변형한 이미지를 손으로 전사하고 그 위에 붓질과 물감의 두께를 더한다. 이 과정에서 형상은 밀리거나 어긋나고, 화면에는 서로 다른 시간과 흔적이 함께 쌓인다.\n\n각 작품 안에서 이루어지는 겹침은 대림창고 공간 속 작품과 작품 사이로 확장된다. 공간 곳곳에 놓인 화면들은 하나의 장면으로 이어지기보다 각기 다른 방향과 속도로 관람자의 시선을 이끈다.\n\n주최·주관 | 대림창고",
     "photo_credit": "박지영 (@zz0022_photo)",
     "order": 1
   },
@@ -58,14 +58,21 @@
     "title": "Bridge Project 2026",
     "year": 2026,
     "kind": "Group exhibition",
-    "dates": "2026",
-    "venue": "Artspace LAF",
+    "dates": "2026. 06. 12  ~ 06. 27 ",
+    "venue": "아트스페이스 라프 Artspace LAF",
     "city": "Seoul",
-    "description": "전시 소개글을 직접 입력해 주세요.",
-    "order": 4
+    "image": "images/exhibitions/bridge-project-2026/도연 작가님_2.jpg",
+    "gallery": [
+      "images/exhibitions/bridge-project-2026/총 전경_1.jpg",
+      "images/exhibitions/bridge-project-2026/도연 작가님_1.jpg",
+      "images/exhibitions/bridge-project-2026/총 전경_2.jpg"
+    ],
+    "description": "Bridge Project 2026은 당해연도 졸업자를 대상으로 한 신진작가 전시 프로그램입니다. \n\n-\nartspace laf 선정작가 | 권다현(@_stella.d), 김도연(@kd.yeun), 김시우(@seew6.6), 장영록(@jyr_archive), 조민(@_chomin)\n\n주최·주관 | 아트스페이스 라프\n협력 | 갤러리 A, 공간해안, 아트노이드178",
+    "photo_credit": "박지영 (@zz0022_photo)",
+    "order": 3
   },
   {
-    "id": "papertown",
+    "id": "connect",
     "title": "페이퍼 타운",
     "year": 2025,
     "kind": "Group exhibition",
