@@ -1288,7 +1288,8 @@ body[data-page="about"] .cv-line {
 }
 
 body[data-page="about"] .cv-block h2 {
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 
