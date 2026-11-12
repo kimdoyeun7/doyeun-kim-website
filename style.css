@@ -151,7 +151,7 @@ img { display: block; max-width: 100%; }
   background: #192D50; /* user-selected navy intro */
   overflow: hidden;
   transform: translateY(0);
-  transition: transform 850ms cubic-bezier(.77,0,.18,1);
+  transition: transform 1000ms cubic-bezier(.77,0,.18,1);
 }
 .intro.is-visible { display: flex; }
 .intro.is-leaving { transform: translateY(-105%); pointer-events: none; }
@@ -1323,4 +1323,27 @@ body[data-page="exhibition-detail"]
 
 body[data-page="exhibition-detail"] .exhibition-about h2 {
   font-size: clamp(20px, 2vw, 28px);
+}
+
+/* EXHIBITIONS — Larger images on tall desktop screens */
+
+@media (min-width: 901px) and (min-height: 800px) {
+
+  body[data-page="exhibitions"] .exhibition-feature-frame {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    aspect-ratio: auto;
+    overflow: visible;
+  }
+
+  body[data-page="exhibitions"] .exhibition-feature-frame img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+  }
+
 }

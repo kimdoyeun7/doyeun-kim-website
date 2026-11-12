@@ -150,10 +150,10 @@ article.dataset.year = String(w.year ?? '').trim();
     try {
       const items=await load('exhibitions');clear(list);
       if(!items.length) return attach(list,make('p','cms-empty','등록된 전시가 없습니다.'));
-      items.forEach(x=>{
+      items.forEach((x, index)=>{
         const article=make('article','exhibition-feature');
         const a=make('a','exhibition-feature-link');a.href=link('exhibition',x);a.setAttribute('aria-label',`View ${x.title} exhibition page`);
-        attach(a,frame(x.image,`Installation view, ${x.title}`,'exhibition-feature-frame'),caption(x.title,`${x.year} · ${x.venue || ''}${x.city ? ', '+x.city : ''}`,'exhibition-feature-caption'));
+        attach(a,frame(x.image,`Installation view, ${x.title}`,'exhibition-feature-frame', index === 0),caption(x.title,`${x.year} · ${x.venue || ''}${x.city ? ', '+x.city : ''}`,'exhibition-feature-caption'));
         attach(article,a);list.appendChild(article);
       });
     }catch(e){message(list,loadError(e));}

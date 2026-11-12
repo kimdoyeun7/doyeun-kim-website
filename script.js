@@ -44,7 +44,7 @@
     exitTimer = setTimeout(() => {
       intro.classList.remove('is-visible', 'is-leaving');
       intro.setAttribute('aria-hidden', 'true');
-    }, reducedMotion ? 30 : 920);
+    }, reducedMotion ? 30 : 1100);
   };
   const openIntro = (auto = true) => {
     if (!intro) return;
