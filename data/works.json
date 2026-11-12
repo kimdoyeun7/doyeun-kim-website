@@ -205,6 +205,17 @@
     "order": 18
   },
   {
+    "id": "slice",
+    "title": "Slice",
+    "year": 2025,
+    "year_display": "2025",
+    "material": "Mixed media on canvas (segmented image transfer, acrylic)",
+    "size": "162.1×35 cm",
+    "image": "images/2025 작업/(300ppi)Slice.jpg",
+    "home_position": "archive",
+    "order": 19
+  },
+  {
     "id": "turning",
     "title": "Turning Point",
     "year": 2025,
@@ -213,7 +224,7 @@
     "size": "100 × 65.1 cm",
     "image": "images/(웹사이트)40M_1  복사.jpg",
     "home_position": "archive",
-    "order": 19
+    "order": 20
   },
   {
     "id": "cut",
@@ -224,7 +235,7 @@
     "size": "100 × 65.1 cm",
     "image": "images/(웹사이트)40M(2).jpg",
     "home_position": "archive",
-    "order": 20
+    "order": 21
   },
   {
     "id": "faded",
@@ -235,7 +246,7 @@
     "size": "31.8 × 40.9 cm",
     "image": "images/2025 작업/Faded Form 복사.jpg",
     "home_position": "archive",
-    "order": 21
+    "order": 22
   },
   {
     "id": "split",
@@ -246,7 +257,7 @@
     "size": "22 × 27.3 cm",
     "image": "images/2025 작업/Split 복사.jpg",
     "home_position": "archive",
-    "order": 22
+    "order": 23
   },
   {
     "id": "traces",
@@ -257,7 +268,7 @@
     "size": "165 × 175 cm",
     "image": "images/웹사이트_흔적과 틈(포토샵편집_11.jpg",
     "home_position": "archive",
-    "order": 23
+    "order": 24
   },
   {
     "id": "change",
@@ -268,7 +279,7 @@
     "size": "18 × 14cm",
     "image": "images/0F_1.jpg",
     "home_position": "archive",
-    "order": 24
+    "order": 25
   },
   {
     "id": "transition",
@@ -279,6 +290,6 @@
     "size": "18 × 14cm",
     "image": "images/0F_2 복사.jpg",
     "home_position": "archive",
-    "order": 25
+    "order": 26
   }
 ]
