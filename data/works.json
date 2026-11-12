@@ -227,6 +227,16 @@
     "order": 20
   },
   {
+    "id": "faded",
+    "title": "Faded Form",
+    "year": 2025,
+    "year_display": "2025",
+    "material": "Mixed media on canvas (segmented image transfer, acrylic)",
+    "size": "31.8 × 40.9 cm",
+    "image": "images/2025 작업/Faded Form 복사.jpg",
+    "order": 21
+  },
+  {
     "id": "traces",
     "title": "Traces and Cracks",
     "year": 2025,
@@ -235,7 +245,7 @@
     "size": "165 × 175 cm",
     "image": "images/웹사이트_흔적과 틈(포토샵편집_11.jpg",
     "home_position": "archive",
-    "order": 21
+    "order": 22
   },
   {
     "id": "change",
@@ -246,7 +256,7 @@
     "size": "18 × 14cm",
     "image": "images/0F_1.jpg",
     "home_position": "archive",
-    "order": 22
+    "order": 23
   },
   {
     "id": "transition",
@@ -257,6 +267,6 @@
     "size": "18 × 14cm",
     "image": "images/0F_2 복사.jpg",
     "home_position": "archive",
-    "order": 23
+    "order": 24
   }
 ]
