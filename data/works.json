@@ -299,5 +299,28 @@
     "image": "images/0F_2 복사.jpg",
     "home_position": "archive",
     "order": 26
+  },
+  {
+    "id": "junction",
+    "title": "Junction",
+    "year": 2026,
+    "year_display": "2026",
+    "material": "Acrylic on Jangji mounted on panel",
+    "size": "22.7 × 15.8 × 5 cm",
+    "image": "images/장지_1호_옆면 복사.jpg",
+    "detail_images": [
+      "images/장지 1호_앞면 복사.jpg"
+    ],
+    "home_position": "archive"
+  },
+  {
+    "id": "offset",
+    "title": "Offset",
+    "year": 2026,
+    "year_display": "2026",
+    "material": "Acrylic on Jangji mounted on canvas",
+    "size": "14 × 22.7 cm",
+    "image": "images/장지 1호_2 복사.jpg",
+    "home_position": "archive"
   }
 ]
