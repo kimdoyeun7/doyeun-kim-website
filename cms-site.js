@@ -146,8 +146,8 @@ function setView(view) {
 }
 
 [
-  { value: 'list', label: 'List' },
-  { value: 'grid', label: 'Grid' }
+  { value: 'grid', label: 'Grid' },
+  { value: 'list', label: 'List' }
 ].forEach(item => {
   const button = make('button', 'works-view-button', item.label);
   button.type = 'button';
@@ -167,7 +167,7 @@ if (heading) {
   heading.appendChild(controls);
 }
 
-setView('list');
+setView('grid');
 chooseYear('All');
 
 
