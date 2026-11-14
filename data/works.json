@@ -7,8 +7,7 @@
     "material": "Mixed media on linen",
     "size": "195 × 380 cm",
     "image": "images/garden.jpg",
-    "home_position": "cover",
-    "order": 1
+    "home_position": "cover"
   },
   {
     "id": "plan",
@@ -18,8 +17,7 @@
     "material": "Mixed media on linen (segmented image transfer, acrylic)",
     "size": "112.1 × 162.2 cm",
     "image": "images/웹사이트_즉흥을 가장한 계획(수정2) 복사.jpg",
-    "home_position": "archive",
-    "order": 2
+    "home_position": "archive"
   },
   {
     "id": "growth",
@@ -29,8 +27,7 @@
     "material": "Mixed media on linen (segmented image transfer, acrylic)",
     "size": "112.1 × 162.2 cm",
     "image": "images/(300ppi)(촬영본)겹친이후.jpg",
-    "home_position": "archive",
-    "order": 3
+    "home_position": "archive"
   },
   {
     "id": "where",
@@ -40,8 +37,7 @@
     "material": "Mixed media on canvas (segmented image transfer, acrylic)",
     "size": "33.4 × 24.1 cm",
     "image": "images/shadow-work-01.jpg",
-    "home_position": "selected",
-    "order": 4
+    "home_position": "selected"
   },
   {
     "id": "flow",
@@ -55,8 +51,7 @@
       "images/디테일컷1_100P_3 복사.jpg",
       "images/디테일컷2_100P_3 복사.jpg"
     ],
-    "home_position": "selected",
-    "order": 5
+    "home_position": "selected"
   },
   {
     "id": "before",
@@ -66,8 +61,7 @@
     "material": "Mixed media on linen (segmented image transfer, acrylic)",
     "size": "162.1 × 227.3 cm",
     "image": "images/(2026)Before the Image Breaks 복사.jpg",
-    "home_position": "archive",
-    "order": 6
+    "home_position": "archive"
   },
   {
     "id": "continuum",
@@ -80,8 +74,7 @@
     "detail_images": [
       "images/컨티늄 디테일컷 복사.jpg"
     ],
-    "home_position": "archive",
-    "order": 7
+    "home_position": "archive"
   },
   {
     "id": "directions",
@@ -91,8 +84,7 @@
     "material": "Mixed media on canvas (segmented image transfer, acrylic)",
     "size": "60 × 30 cm",
     "image": "images/Directions After Erasure .jpg",
-    "home_position": "archive",
-    "order": 8
+    "home_position": "archive"
   },
   {
     "id": "relay",
@@ -102,8 +94,7 @@
     "material": "Mixed media on canvas (segmented image transfer, acrylic)",
     "size": "60.6 × 45.5 cm",
     "image": "images/Relay 복사.jpg",
-    "home_position": "archive",
-    "order": 9
+    "home_position": "archive"
   },
   {
     "id": "entanglement",
@@ -113,8 +104,7 @@
     "material": "Mixed media on canvas (segmented image transfer, acrylic)",
     "size": "22.7 x 15.8 cm",
     "image": "images/2_1호_3.jpg",
-    "home_position": "archive",
-    "order": 10
+    "home_position": "archive"
   },
   {
     "id": "bloom",
@@ -124,8 +114,7 @@
     "material": "Mixed media on canvas (segmented image transfer, acrylic)",
     "size": "22.7 x 15.8 cm",
     "image": "images/1호_5 복사3.jpg",
-    "home_position": "archive",
-    "order": 11
+    "home_position": "archive"
   },
   {
     "id": "topography",
@@ -135,8 +124,7 @@
     "material": "Mixed media on canvas (segmented image transfer, acrylic)",
     "size": "22.7 x 15.8 cm",
     "image": "images/1호_6 복사.jpg",
-    "home_position": "archive",
-    "order": 12
+    "home_position": "archive"
   },
   {
     "id": "tangle",
@@ -146,8 +134,7 @@
     "material": "Mixed media on canvas (segmented image transfer, acrylic)",
     "size": "22.7 x 15.8 cm",
     "image": "images/1호_1 복사.jpg",
-    "home_position": "archive",
-    "order": 13
+    "home_position": "archive"
   },
   {
     "id": "interference",
@@ -157,8 +144,7 @@
     "material": "Mixed media on canvas (segmented image transfer, acrylic)",
     "size": "22.7 x 15.8 cm",
     "image": "images/1호_2 복사.jpg",
-    "home_position": "archive",
-    "order": 14
+    "home_position": "archive"
   },
   {
     "id": "sediment",
@@ -168,8 +154,7 @@
     "material": "Mixed media on canvas (segmented image transfer, acrylic)",
     "size": "22.7 x 15.8 cm",
     "image": "images/1호_4 복사.jpg",
-    "home_position": "archive",
-    "order": 15
+    "home_position": "archive"
   },
   {
     "id": "state",
@@ -179,126 +164,7 @@
     "material": "Mixed media on linen (segmented image transfer, acrylic)",
     "size": "60.6 x 45.5 cm",
     "image": "images/근접상태(그림자O) 복사.jpg",
-    "home_position": "archive",
-    "order": 16
-  },
-  {
-    "id": "patch",
-    "title": "Patch",
-    "year": 2026,
-    "year_display": "2026",
-    "material": "Mixed media on unstretched canvas (segmented image transfer, acrylic",
-    "size": "90.9 × 72.7 cm",
-    "image": "images/(웹사이트)Patch(보정).jpg",
-    "home_position": "archive",
-    "order": 17
-  },
-  {
-    "id": "accidental",
-    "title": "Accidental Layer",
-    "year": 2025,
-    "year_display": "2025",
-    "material": "Mixed media on linen (segmented image transfer, acrylic)",
-    "size": "227.3 × 181.8cm",
-    "image": "images/2025 작업/accidental layer2(JPG).jpg",
-    "detail_images": [
-      "images/2025 작업/확대샷1.jpg",
-      "images/2025 작업/층위2.jpg"
-    ],
-    "home_position": "archive",
-    "order": 18
-  },
-  {
-    "id": "slice",
-    "title": "Slice",
-    "year": 2025,
-    "year_display": "2025",
-    "material": "Mixed media on canvas (segmented image transfer, acrylic)",
-    "size": "162.1×35 cm",
-    "image": "images/2025 작업/slice(그림자) 복사.jpg",
-    "home_position": "archive",
-    "order": 19
-  },
-  {
-    "id": "turning",
-    "title": "Turning Point",
-    "year": 2025,
-    "year_display": "2025",
-    "material": "Mixed media on canvas (segmented image transfer, acrylic)",
-    "size": "100 × 65.1 cm",
-    "image": "images/(웹사이트)40M_1  복사.jpg",
-    "home_position": "archive",
-    "order": 20
-  },
-  {
-    "id": "cut",
-    "title": "Cut Across",
-    "year": 2025,
-    "year_display": "2025",
-    "material": "Mixed media on canvas (segmented image transfer, acrylic)",
-    "size": "100 × 65.1 cm",
-    "image": "images/(웹사이트)40M(2).jpg",
-    "home_position": "archive",
-    "order": 21
-  },
-  {
-    "id": "faded",
-    "title": "Faded Form",
-    "year": 2025,
-    "year_display": "2025",
-    "material": "Mixed media on canvas (segmented image transfer, acrylic)",
-    "size": "31.8 × 40.9 cm",
-    "image": "images/2025 작업/Faded Form 복사.jpg",
-    "home_position": "archive",
-    "order": 22
-  },
-  {
-    "id": "split",
-    "title": "Split",
-    "year": 2025,
-    "year_display": "2025",
-    "material": " Mixed media on canvas (segmented image transfer, acrylic)",
-    "size": "22 × 27.3 cm",
-    "image": "images/2025 작업/Split 복사.jpg",
-    "home_position": "archive",
-    "order": 23
-  },
-  {
-    "id": "traces",
-    "title": "Traces and Cracks",
-    "year": 2025,
-    "year_display": "2025",
-    "material": "Mixed media on unstretched canvas (segmented image transfer, acrylic)",
-    "size": "165 × 175 cm",
-    "image": "images/웹사이트_흔적과 틈(포토샵편집_11.jpg",
-    "detail_images": [
-      "images/2025 작업/흔적과틈_디테일샷2 복사.jpg",
-      "images/2025 작업/흔적과틈_디테일샷1.jpg"
-    ],
-    "home_position": "archive",
-    "order": 24
-  },
-  {
-    "id": "change",
-    "title": "Change",
-    "year": 2025,
-    "year_display": "2025",
-    "material": "Mixed media on linen (segmented image transfer, acrylic)",
-    "size": "18 × 14cm",
-    "image": "images/0F_1.jpg",
-    "home_position": "archive",
-    "order": 25
-  },
-  {
-    "id": "transition",
-    "title": "Transition",
-    "year": 2025,
-    "year_display": "2025",
-    "material": "Mixed media on linen (segmented image transfer, acrylic)",
-    "size": "18 × 14cm",
-    "image": "images/0F_2 복사.jpg",
-    "home_position": "archive",
-    "order": 26
+    "home_position": "archive"
   },
   {
     "id": "junction",
@@ -321,6 +187,114 @@
     "material": "Acrylic on Jangji mounted on canvas",
     "size": "14 × 22.7 cm",
     "image": "images/장지 1호_2 복사.jpg",
+    "home_position": "archive"
+  },
+  {
+    "id": "patch",
+    "title": "Patch",
+    "year": 2026,
+    "year_display": "2026",
+    "material": "Mixed media on unstretched canvas (segmented image transfer, acrylic",
+    "size": "90.9 × 72.7 cm",
+    "image": "images/(웹사이트)Patch(보정).jpg",
+    "home_position": "archive"
+  },
+  {
+    "id": "accidental",
+    "title": "Accidental Layer",
+    "year": 2025,
+    "year_display": "2025",
+    "material": "Mixed media on linen (segmented image transfer, acrylic)",
+    "size": "227.3 × 181.8cm",
+    "image": "images/2025 작업/accidental layer2(JPG).jpg",
+    "detail_images": [
+      "images/2025 작업/확대샷1.jpg",
+      "images/2025 작업/층위2.jpg"
+    ],
+    "home_position": "archive"
+  },
+  {
+    "id": "slice",
+    "title": "Slice",
+    "year": 2025,
+    "year_display": "2025",
+    "material": "Mixed media on canvas (segmented image transfer, acrylic)",
+    "size": "162.1×35 cm",
+    "image": "images/2025 작업/slice(배경) 복사.jpg",
+    "home_position": "archive"
+  },
+  {
+    "id": "turning",
+    "title": "Turning Point",
+    "year": 2025,
+    "year_display": "2025",
+    "material": "Mixed media on canvas (segmented image transfer, acrylic)",
+    "size": "100 × 65.1 cm",
+    "image": "images/(웹사이트)40M_1  복사.jpg",
+    "home_position": "archive"
+  },
+  {
+    "id": "cut",
+    "title": "Cut Across",
+    "year": 2025,
+    "year_display": "2025",
+    "material": "Mixed media on canvas (segmented image transfer, acrylic)",
+    "size": "100 × 65.1 cm",
+    "image": "images/(웹사이트)40M(2).jpg",
+    "home_position": "archive"
+  },
+  {
+    "id": "faded",
+    "title": "Faded Form",
+    "year": 2025,
+    "year_display": "2025",
+    "material": "Mixed media on canvas (segmented image transfer, acrylic)",
+    "size": "31.8 × 40.9 cm",
+    "image": "images/2025 작업/Faded Form 복사.jpg",
+    "home_position": "archive"
+  },
+  {
+    "id": "split",
+    "title": "Split",
+    "year": 2025,
+    "year_display": "2025",
+    "material": " Mixed media on canvas (segmented image transfer, acrylic)",
+    "size": "22 × 27.3 cm",
+    "image": "images/2025 작업/Split 복사.jpg",
+    "home_position": "archive"
+  },
+  {
+    "id": "traces",
+    "title": "Traces and Cracks",
+    "year": 2025,
+    "year_display": "2025",
+    "material": "Mixed media on unstretched canvas (segmented image transfer, acrylic)",
+    "size": "165 × 175 cm",
+    "image": "images/웹사이트_흔적과 틈(포토샵편집_11.jpg",
+    "detail_images": [
+      "images/2025 작업/흔적과틈_디테일샷2 복사.jpg",
+      "images/2025 작업/흔적과틈_디테일샷1.jpg"
+    ],
+    "home_position": "archive"
+  },
+  {
+    "id": "change",
+    "title": "Change",
+    "year": 2025,
+    "year_display": "2025",
+    "material": "Mixed media on linen (segmented image transfer, acrylic)",
+    "size": "18 × 14cm",
+    "image": "images/0F_1.jpg",
+    "home_position": "archive"
+  },
+  {
+    "id": "transition",
+    "title": "Transition",
+    "year": 2025,
+    "year_display": "2025",
+    "material": "Mixed media on linen (segmented image transfer, acrylic)",
+    "size": "18 × 14cm",
+    "image": "images/0F_2 복사.jpg",
     "home_position": "archive"
   }
 ]
