@@ -59,7 +59,9 @@
     if(!response.ok) throw Error(`data/${name}.json (${response.status})`);
     const data = await response.json();
     if(!Array.isArray(data)) throw Error(`${name}.json의 최상위 데이터는 배열이어야 합니다.`);
-    return order(data.filter(item => item && item.id && item.title));
+    const items = data.filter(item => item && item.id && item.title);
+    return name === 'works' ? items : order(items);
+
   }
   function loadError(e) {
     console.error(e);

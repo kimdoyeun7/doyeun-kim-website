@@ -64,9 +64,7 @@ content:
               label: "첫 화면 아래의 선택 작품 (최대 2점)"
             - name: archive
               label: "Works 목록에만"
-      - name: order
-        label: "정렬 순서 (작을수록 앞에 표시)"
-        type: number
+      
 
   - name: exhibitions
     label: "Exhibitions / 전시 관리"
