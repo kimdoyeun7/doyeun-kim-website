@@ -1466,3 +1466,67 @@ body[data-page="works"] #works-grid.is-grid-view .work-caption {
     display: block;
   }
 }
+
+/* WORKS — Centered two-column grid */
+
+body[data-page="works"] #works-grid.is-grid-view {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  column-gap: 48px;
+  row-gap: 75px;
+  align-items: start;
+}
+
+/* Artwork frame: equal height, centered images */
+
+body[data-page="works"] #works-grid.is-grid-view .art-frame {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: clamp(320px, 36vw, 520px) !important;
+  min-height: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: hidden;
+  background: #fff;
+}
+
+/* Keep each artwork's original proportions */
+
+body[data-page="works"] #works-grid.is-grid-view .art-frame img {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: contain !important;
+  object-position: center center;
+  margin: 0 auto;
+}
+
+/* Consistent caption positioning */
+
+body[data-page="works"] #works-grid.is-grid-view .work-caption {
+  margin-top: 12px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Mobile — two columns */
+
+@media (max-width: 700px) {
+  body[data-page="works"] #works-grid.is-grid-view {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    column-gap: 14px;
+    row-gap: 38px;
+  }
+
+  body[data-page="works"] #works-grid.is-grid-view .art-frame {
+    height: clamp(150px, 38vw, 240px) !important;
+  }
+
+  body[data-page="works"] #works-grid.is-grid-view .work-caption {
+    font-size: 10px;
+    margin-top: 8px;
+  }
+}
