@@ -127,14 +127,49 @@ function chooseYear(selected) {
   yearFilter.appendChild(button);
 });
 
+
+/* Works — List / Grid view switch */
+
+const viewSwitch = make('div', 'works-view-switch');
+viewSwitch.setAttribute('role', 'group');
+viewSwitch.setAttribute('aria-label', 'Artwork view');
+
+function setView(view) {
+  grid.classList.toggle('is-grid-view', view === 'grid');
+
+  viewSwitch.querySelectorAll('button').forEach(button => {
+    button.setAttribute(
+      'aria-pressed',
+      String(button.dataset.view === view)
+    );
+  });
+}
+
+[
+  { value: 'list', label: 'List' },
+  { value: 'grid', label: 'Grid' }
+].forEach(item => {
+  const button = make('button', 'works-view-button', item.label);
+  button.type = 'button';
+  button.dataset.view = item.value;
+  button.addEventListener('click', () => setView(item.value));
+  viewSwitch.appendChild(button);
+});
+
 const heading = $('.works-heading');
 
 if (heading) {
+  heading.querySelector('.works-controls')?.remove();
   heading.querySelector('.works-year-filter')?.remove();
-  heading.appendChild(yearFilter);
+
+  const controls = make('div', 'works-controls');
+  controls.append(yearFilter, viewSwitch);
+  heading.appendChild(controls);
 }
 
+setView('list');
 chooseYear('All');
+
 
       works.forEach(w=>{
         const article=make('article','work-card');

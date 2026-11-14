@@ -1347,3 +1347,122 @@ body[data-page="exhibition-detail"] .exhibition-about h2 {
   }
 
 }
+
+/* WORKS — List / Grid view controls */
+
+body[data-page="works"] .works-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+body[data-page="works"] .works-year-filter,
+body[data-page="works"] .works-view-switch {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+body[data-page="works"] .works-controls button {
+  border: 1px solid #e4e7e4;
+  border-radius: 3px;
+  padding: 7px 12px;
+  background: #fff;
+  color: #888;
+  font-size: 12px;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+body[data-page="works"] .works-controls button[aria-pressed="true"] {
+  color: #1b1d1b;
+  border-color: #1b1d1b;
+}
+
+body[data-page="works"] .works-controls button:hover {
+  color: #5e8da4;
+}
+
+
+/* WORKS — Grid mode, desktop 3 columns */
+
+body[data-page="works"] #works-grid.is-grid-view {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 65px 30px;
+  align-items: start;
+}
+
+body[data-page="works"] #works-grid.is-grid-view .work-link {
+  width: 100%;
+  max-width: none;
+}
+
+body[data-page="works"] #works-grid.is-grid-view .art-frame {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  aspect-ratio: auto;
+  overflow: hidden;
+}
+
+body[data-page="works"] #works-grid.is-grid-view .art-frame img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 420px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+body[data-page="works"] #works-grid.is-grid-view
+.art-frame:not(:has(img.is-loaded)) {
+  min-height: 140px;
+}
+
+body[data-page="works"] #works-grid.is-grid-view .work-caption {
+  margin-top: 10px;
+  font-size: 11px;
+  line-height: 1.5;
+  gap: 8px;
+}
+
+
+/* Tablet — 2 columns */
+
+@media (max-width: 1000px) {
+  body[data-page="works"] #works-grid.is-grid-view {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 48px 22px;
+  }
+}
+
+
+/* Mobile — 2 columns */
+
+@media (max-width: 700px) {
+  body[data-page="works"] #works-grid.is-grid-view {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 35px 14px;
+  }
+
+  body[data-page="works"] #works-grid.is-grid-view .art-frame img {
+    max-height: 240px;
+  }
+
+  body[data-page="works"] #works-grid.is-grid-view .work-caption {
+    display: block;
+    margin-top: 8px;
+    font-size: 10px;
+  }
+
+  body[data-page="works"] #works-grid.is-grid-view .work-caption span {
+    display: block;
+  }
+}
