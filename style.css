@@ -1616,31 +1616,65 @@ body[data-page="work-detail"] .detail-facts {
   }
 }
 
-/* WORK DETAIL — Center the entire caption group */
+ 
+/* WORK DETAIL — Balanced caption alignment */
 
 body[data-page="work-detail"] .detail-information {
-  width: min(100%, 1120px);
-  max-width: 1120px;
+  width: 100%;
+  max-width: 1280px;
   margin-left: auto !important;
   margin-right: auto !important;
 
   display: grid;
-  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
-  column-gap: clamp(55px, 6vw, 100px);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  column-gap: clamp(60px, 7vw, 120px);
   align-items: start;
 }
 
-/* Keep text aligned within each column */
-body[data-page="work-detail"] .detail-information h1,
-body[data-page="work-detail"] .detail-facts {
+/* Artwork title — left side */
+
+body[data-page="work-detail"] .detail-information h1 {
+  font-size: 21px !important;
+  font-weight: 500;
+  line-height: 1.35;
   text-align: left;
 }
 
-/* Tablet and mobile: stack information vertically */
+/* Artwork information — right side */
+
+body[data-page="work-detail"] .detail-facts {
+  justify-self: end;
+  width: max-content;
+  max-width: 100%;
+  padding-top: 3px;
+
+  font-size: 13px;
+  line-height: 1.65;
+  text-align: left;
+}
+
+/* Tablet & mobile */
+
 @media (max-width: 900px) {
   body[data-page="work-detail"] .detail-information {
-    width: 100%;
     grid-template-columns: minmax(0, 1fr);
     gap: 18px;
   }
+
+  body[data-page="work-detail"] .detail-facts {
+    justify-self: start;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  body[data-page="work-detail"] .detail-information h1 {
+    font-size: 19px !important;
+  }
 }
+
+@media (max-width: 700px) {
+  body[data-page="work-detail"] .detail-information h1 {
+    font-size: 18px !important;
+  }
+}
+
