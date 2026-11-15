@@ -1530,3 +1530,42 @@ body[data-page="works"] #works-grid.is-grid-view .work-caption {
     margin-top: 8px;
   }
 }
+
+/* HOME — Selected Works layout refinement */
+
+/* Reduce spacing below the main artwork caption */
+body[data-page="home"] .home-cover-caption {
+  padding-bottom: clamp(36px, 4vw, 60px);
+}
+
+/* Remove divider and tighten section spacing */
+body[data-page="home"] .home-selected-header {
+  border-top: none;
+  padding-top: 0;
+  padding-bottom: 32px;
+}
+
+/* Smaller, bold Selected Works heading */
+body[data-page="home"] .home-selected-header h2 {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.5;
+}
+
+/* Keep the right-side label subtle */
+body[data-page="home"] .home-selected-header span {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/* Mobile spacing */
+@media (max-width: 700px) {
+  body[data-page="home"] .home-cover-caption {
+    padding-bottom: 32px;
+  }
+
+  body[data-page="home"] .home-selected-header {
+    padding-bottom: 24px;
+  }
+}
