@@ -1535,7 +1535,7 @@ body[data-page="works"] #works-grid.is-grid-view .work-caption {
 
 /* Reduce spacing below the main artwork caption */
 body[data-page="home"] .home-cover-caption {
-  padding-bottom: clamp(36px, 4vw, 60px);
+  padding-bottom: clamp(52px, 5vw, 80px);
 }
 
 /* Remove divider and tighten section spacing */
@@ -1566,6 +1566,6 @@ body[data-page="home"] .home-selected-header span {
   }
 
   body[data-page="home"] .home-selected-header {
-    padding-bottom: 24px;
+    padding-bottom: 44px;
   }
 }
