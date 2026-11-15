@@ -1616,11 +1616,31 @@ body[data-page="work-detail"] .detail-facts {
   }
 }
 
-/* WORK DETAIL — Align caption with artwork image */
+/* WORK DETAIL — Center the entire caption group */
 
 body[data-page="work-detail"] .detail-information {
-  width: 100%;
-  max-width: 1290px;
+  width: min(100%, 1120px);
+  max-width: 1120px;
   margin-left: auto !important;
   margin-right: auto !important;
+
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  column-gap: clamp(55px, 6vw, 100px);
+  align-items: start;
+}
+
+/* Keep text aligned within each column */
+body[data-page="work-detail"] .detail-information h1,
+body[data-page="work-detail"] .detail-facts {
+  text-align: left;
+}
+
+/* Tablet and mobile: stack information vertically */
+@media (max-width: 900px) {
+  body[data-page="work-detail"] .detail-information {
+    width: 100%;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+  }
 }
