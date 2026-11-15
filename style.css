@@ -1547,7 +1547,7 @@ body[data-page="home"] .home-selected-header {
 
 /* Smaller, bold Selected Works heading */
 body[data-page="home"] .home-selected-header h2 {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   letter-spacing: -0.02em;
   line-height: 1.5;
