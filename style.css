@@ -1569,3 +1569,49 @@ body[data-page="home"] .home-selected-header span {
     padding-bottom: 44px;
   }
 }
+
+/* WORK DETAIL — Refined artwork information */
+
+/* Balanced two-column layout */
+body[data-page="work-detail"] .detail-information {
+  width: min(100%, 1360px);
+  margin: clamp(52px, 6.5vw, 105px) auto
+          clamp(65px, 7vw, 105px);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  column-gap: clamp(45px, 5vw, 85px);
+  align-items: start;
+}
+
+/* Smaller artwork title */
+body[data-page="work-detail"] .detail-information h1 {
+  font-size: 21px !important;
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+}
+
+/* Wider artwork information area */
+body[data-page="work-detail"] .detail-facts {
+  padding-top: 3px;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+/* Tablet and mobile */
+@media (max-width: 900px) {
+  body[data-page="work-detail"] .detail-information {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin: 45px auto 70px;
+  }
+
+  body[data-page="work-detail"] .detail-information h1 {
+    font-size: 19px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  body[data-page="work-detail"] .detail-information h1 {
+    font-size: 18px !important;
+  }
+}
