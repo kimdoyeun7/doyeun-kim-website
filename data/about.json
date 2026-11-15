@@ -72,6 +72,17 @@
           "description_en": "Hidden Stories, Mapo Art Center Gallery MAC, Seoul, KR"
         }
       ]
+    },
+    {
+      "title_ko": "장학",
+      "title_en": "Scholarships",
+      "entries": [
+        {
+          "year": "2024",
+          "description_ko": "박서보장학재단 1학기 장학생 선정",
+          "description_en": "PARK SEO-BO Scholarship Foundation, Scholarship Recipient (Spring Semester)"
+        }
+      ]
     }
   ]
 }
