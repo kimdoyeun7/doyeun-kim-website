@@ -1678,3 +1678,17 @@ body[data-page="work-detail"] .detail-facts {
   }
 }
 
+/* CV — Remove divider and refine spacing */
+
+/* Reduce space below the CV heading */
+body[data-page="about"] .page-heading {
+  padding-bottom: clamp(26px, 3.5vw, 44px);
+}
+
+/* Remove the divider above PROFILE / CV */
+body[data-page="about"] .section-line {
+  border-top: none;
+  padding-top: 0;
+  margin-bottom: 24px;
+}
+
