@@ -1692,3 +1692,30 @@ body[data-page="about"] .section-line {
   margin-bottom: 24px;
 }
 
+/* EXHIBITIONS — Smaller poster at the end */
+
+body[data-page="exhibition-detail"] .exhibition-poster {
+  width: 100%;
+  max-width: 1280px;
+  margin: clamp(50px, 6vw, 90px) auto 0;
+}
+
+body[data-page="exhibition-detail"] .exhibition-poster img {
+  display: block;
+  width: min(34%, 420px);
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  body[data-page="exhibition-detail"] .exhibition-poster {
+    margin-top: 45px;
+  }
+
+  body[data-page="exhibition-detail"] .exhibition-poster img {
+    width: min(78%, 320px);
+  }
+}
+
