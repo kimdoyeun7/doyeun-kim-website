@@ -262,17 +262,63 @@ article.dataset.year = String(w.year ?? '').trim();
         attach(about,make('h2','','About the exhibition'),make('p','cms-description',item.description));
         target.appendChild(about);
       }
-      imageGallery(target,'Installation views',galleryItems(item.gallery),`${item.title} — installation view`);
-      /* Exhibition photography credit */
-      const photographer = String(item.photo_credit || "").trim();
-      if (photographer) {
-        const credit = document.createElement("p");
-        credit.className = "exhibition-photo-credit";
-        credit.textContent = "Installation photography: " + photographer;
-        target.appendChild(credit);
-      }
+      
+/* Installation views */
+imageGallery(
+  target,
+  'Installation views',
+  galleryItems(item.gallery),
+  `${item.title} — installation view`
+);
 
-      bottomNav(target,list,i,'exhibition','Exhibitions');
+/* Exhibition poster */
+const posterSrc = imgUrl(item.poster);
+
+if (posterSrc) {
+  const poster = make('figure', 'exhibition-poster');
+  const img = make('img');
+
+  img.src = posterSrc;
+  img.alt = `${item.title} — exhibition poster`;
+  img.loading = 'lazy';
+
+  img.addEventListener('error', () => poster.remove());
+
+  poster.appendChild(img);
+  target.appendChild(poster);
+}
+
+/* Exhibition credits — always after the poster */
+const credits = make('div', 'exhibition-credits');
+
+const photographer = String(item.photo_credit || '').trim();
+
+if (photographer) {
+  credits.appendChild(
+    make('p', '', `Installation photography: ${photographer}`)
+  );
+}
+
+/* Optional additional credits */
+if (Array.isArray(item.additional_credits)) {
+  item.additional_credits.forEach(entry => {
+    const role = String(entry?.role || '').trim();
+    const name = String(entry?.name || '').trim();
+
+    if (role && name) {
+      credits.appendChild(
+        make('p', '', `${role}: ${name}`)
+      );
+    }
+  });
+}
+
+if (credits.children.length > 0) {
+  target.appendChild(credits);
+}
+
+/* Previous / Next exhibition */
+bottomNav(target, list, i, 'exhibition', 'Exhibitions');
     }catch(e){message(target,loadError(e));}
   }
   home(); worksIndex(); exhibitionsIndex(); artworkDetail(); exhibitionDetail();
