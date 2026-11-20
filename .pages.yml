@@ -113,12 +113,29 @@ content:
         options:
           multiple:
             max: 60
+      - name: poster
+        label: "전시 포스터 (1장, 전경 사진 마지막에 표시)"
+        type: image
       - name: description
         label: "전시 소개"
         type: text        
       - name: photo_credit
         label: "전시 전경 사진 촬영자 (Photography Credit)"
         type: string 
+      - name: additional_credits
+        label: "추가 크레딧 (글, 포스터 디자인 등)"
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{role}"
+        fields:
+          - name: role
+            label: "역할 (예: Exhibition text, Poster design)"
+            type: string
+          - name: name
+            label: "이름 / 소속"
+            type: string
       - name: order
         label: "정렬 순서 (작을수록 앞에 표시)"
         type: number
