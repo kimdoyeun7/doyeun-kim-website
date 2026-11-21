@@ -111,12 +111,10 @@
 
     if (!id) {
       // Texts 목록
-      root.appendChild(
-        heading(
-          "Texts",
-          "Artist statements / Critical essays / Reviews / Interviews"
-        )
-      );
+     root.appendChild(
+      heading("Texts", "")
+    );
+
 
       root.appendChild(languageSwitch());
 
