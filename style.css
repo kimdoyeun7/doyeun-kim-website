@@ -1746,3 +1746,20 @@ body[data-page="exhibition-detail"] .exhibition-credits p {
 body[data-page="contact"] .contact-minimal-heading .page-title {
   margin-bottom: 0;
 }
+
+/* ALIGN PAGE TITLES — Texts & Contact */
+
+/* Desktop: match Works, Exhibitions and CV */
+@media (min-width: 701px) {
+
+  /* Texts — move slightly down */
+  body[data-page="texts"] .texts-heading .texts-title {
+    transform: translateY(15px);
+  }
+
+  /* Contact — move slightly up */
+  body[data-page="contact"] .contact-minimal-heading .page-title {
+    transform: translateY(-12px);
+  }
+
+}
