@@ -1747,19 +1747,34 @@ body[data-page="contact"] .contact-minimal-heading .page-title {
   margin-bottom: 0;
 }
 
-/* ALIGN PAGE TITLES — Texts & Contact */
+/* UNIFIED PAGE HEADING ALIGNMENT */
 
-/* Desktop: match Works, Exhibitions and CV */
+/* Desktop — same top spacing for all five pages */
 @media (min-width: 701px) {
-
-  /* Texts — move slightly down */
-  body[data-page="texts"] .texts-heading .texts-title {
-    transform: translateY(15px);
+  body[data-page="works"] .works-heading,
+  body[data-page="exhibitions"] .exhibition-archive-heading,
+  body[data-page="about"] .page-heading,
+  body[data-page="texts"] .texts-heading,
+  body[data-page="contact"] .contact-minimal {
+    padding-top: clamp(65px, 7vw, 105px);
   }
-
-  /* Contact — move slightly up */
-  body[data-page="contact"] .contact-minimal-heading .page-title {
-    transform: translateY(-12px);
-  }
-
 }
+
+/* Mobile — consistent heading position */
+@media (max-width: 700px) {
+  body[data-page="works"] .works-heading,
+  body[data-page="exhibitions"] .exhibition-archive-heading,
+  body[data-page="about"] .page-heading,
+  body[data-page="texts"] .texts-heading,
+  body[data-page="contact"] .contact-minimal {
+    padding-top: 65px;
+  }
+}
+
+/* Remove previous visual offsets */
+body[data-page="texts"] .texts-title,
+body[data-page="contact"] .contact-minimal-heading .page-title {
+  transform: none !important;
+}
+
+
