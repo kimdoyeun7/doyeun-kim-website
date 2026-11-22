@@ -1742,3 +1742,7 @@ body[data-page="exhibition-detail"] .exhibition-credits p {
     margin-top: 24px;
   }
 }
+/* CONTACT — Heading without subtitle */
+body[data-page="contact"] .contact-minimal-heading .page-title {
+  margin-bottom: 0;
+}

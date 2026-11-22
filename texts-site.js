@@ -74,15 +74,12 @@
 
   function heading(title, subtitle) {
     const header = make("header", "texts-heading");
-    const kicker = make(
-      "p", "texts-kicker", "04 / TEXTS"
-    );
 
     const titleElement = make("h1", "texts-title", title);
     const dot = make("span", "texts-dot", ".");
     titleElement.appendChild(dot);
 
-    header.append(kicker, titleElement);
+    header.appendChild(titleElement);
 
     if (subtitle) {
       header.appendChild(
